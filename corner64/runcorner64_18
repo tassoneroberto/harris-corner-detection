@@ -1,0 +1,7 @@
+# Assembla ogni file nasm presente nel path corrente
+for file_nasm in $(ls *.nasm);
+do
+  nasm -f elf64 $file_nasm
+done
+gcc -O0 -m64 -mavx prodotto_18.o sogliatura_18.o corner64c_18.c -o corner64c_18 -lm
+./corner64c_18 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10
