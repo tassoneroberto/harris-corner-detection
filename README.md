@@ -1,7 +1,7 @@
 # harris-corner-detection
 
 ## Introduction
-Harris Corner Detection and Spatial Filtering algorithm in C language using optimization techniques based on hardware organization.
+Harris Corner Detection and Spatial Filtering algorithm in C and NASM languages using optimization techniques based on hardware organization.
 
 ## Installation
 Clone
